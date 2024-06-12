@@ -6,4 +6,5 @@ edition = "2021"
 [dependencies]
 askama = "0.12.1"
 axum = "0.7.5"
+clap = { version = "4.5.7", features = ["derive", "env"] }
 tokio = { version = "1.38.0", features = ["rt-multi-thread", "macros"] }
