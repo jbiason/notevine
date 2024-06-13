@@ -7,4 +7,5 @@ edition = "2021"
 askama = "0.12.1"
 axum = "0.7.5"
 clap = { version = "4.5.7", features = ["derive", "env"] }
+phf = { version = "0.11.2", features = ["macros"] }
 tokio = { version = "1.38.0", features = ["rt-multi-thread", "macros"] }
